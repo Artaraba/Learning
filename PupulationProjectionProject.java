@@ -22,7 +22,11 @@ public class PupulationProjectionProject {
         System.out.println();
         System.out.println("****************************************************************************************************");
         // Get birthrate from user
-        System.out.println("* Please enter a birthrate (births per sec, whol number format)                                    *");
+        System.out.print("Please enter a birthrate (births per sec, whole number format only): ");
         int birthRate = input.nextInt();
+        System.out.println();
+        // Get deathrate from user
+        System.out.print("Please enter a deathrate (deaths per secm whole numbers only) : ");
+        int deathRate = input.nextInt();
     }
 }
