@@ -1,2 +1,2 @@
 # Learning
-Learning GutHub
+Learning GitHub
