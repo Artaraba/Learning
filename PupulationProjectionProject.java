@@ -37,6 +37,7 @@ public class PupulationProjectionProject {
         System.out.print("Please enter the current population (whole humbers only): ");
         int currentPopulation = input.nextInt();
         System.out.println();
+        input.close();
         // Find population growth rate
         double growthRate = ((birthRate + immigrationRate) - (deathRate)) / 100.00;
         // Calculate population projection for each year in the next five years
