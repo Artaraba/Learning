@@ -23,7 +23,8 @@ public class PointInRectangle {
         System.out.print("Please enter a coordinate in the form of (x y) to verify it is inside the Rectangle: ");
         double x = input.nextDouble();
         double y = input.nextDouble();
-
+        input.close();
+        
         // Check if point in quadrant 1
         if (x <= 10.0 / 2 && x >= 0) {
             if (y <= 5.0 / 2 && y >= 0) {
